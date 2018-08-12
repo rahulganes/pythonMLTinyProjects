@@ -5,11 +5,15 @@
 
 
 
+from validate_email import validate_email
+import DNS
+
+
 from geopy.geocoders import Nominatim
 
-addresslocation = input("Enter YOur Address here :")
+addresslocation = input("Enter your Address here :")
 geolocator = Nominatim(user_agent="Curriculum_Validator")
-location = geolocator.geocode(addresslocation)
+location = geolocator.geocode(addresslocation)#VALIDATE_ADDRESS
 try:
     location.latitude
     a0 = 1
@@ -21,16 +25,23 @@ from phonenumbers.phonenumberutil import number_type
 
 number = input("Enter your phone number with country code :")
 try :
-    if(carrier._is_mobile(number_type(phonenumbers.parse(number)))):
+    if(carrier._is_mobile(number_type(phonenumbers.parse(number)))): #VALIDATE_PHONENUMBER
         a1 = 1
     else:
         a1 = 0 
 except:    
     a1 = 0
+
+emailid = input("Enter your email-id :")#VALIDATE_EMAIL-ID    
+is_valid = validate_email(emailid,verify=True)
+if is_valid == True:
+    a3 = 1
+else:
+    a3 = 0
 describeyourselves = input("Describe yourselves :")
 from textblob import TextBlob
 
-analyse = TextBlob(describeyourselves)
+analyse = TextBlob(describeyourselves)#SENTIMENT_ANALYSIS
 if(analyse.sentiment.polarity>0.25):
     a2 = 1
 elif(analyse.sentiment.polarity<0.25 )and(analyse.sentiment.polarity>-0.25):
@@ -38,15 +49,21 @@ elif(analyse.sentiment.polarity<0.25 )and(analyse.sentiment.polarity>-0.25):
 else:
     a2 = -1
 
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
 from sklearn import tree
+
+dataset = pd.read_csv(r'\CV_dataset1.csv') #ENTER YOUR DATA SET HERE
+X = dataset.iloc[:, :-1].values #ORIGINAL DATA
+Y = dataset.iloc[:, 4].values
 
 clf = tree.DecisionTreeClassifier()
 
-X = [[0,0,-1],[0,0,0],[0,0,1],[0,1,-1],[0,1,0],[0,1,1],[1,0,-1],[1,0,0],[1,0,1],[1,1,-1],[1,1,0],[1,1,1]]
-Y = ['Highly Risky','Risky','Intermediate','Risky','Intermediate','Good','Risky','Intermediate','Good','Intermediate','Good','Excellent']
 
 clf.fit(X,Y)
 
-print("How trustworthy are you?")
-print(clf.predict([[a0,a1,a2]]))
+print("Verdict :")
+print(clf.predict([[a0,a1,a2,a3]]))
+
 

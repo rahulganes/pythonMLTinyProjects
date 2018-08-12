@@ -1,0 +1,25 @@
+location,phonenum,sentiment,email,result
+0,0,-1,0,highly negative
+0,0,-1,1,negative
+0,0,0,0,negative
+0,0,0,1,intermediate
+0,0,1,0,intermediate
+0,0,1,1,positive
+0,1,-1,0,negative
+0,1,-1,1,intermediate
+0,1,0,0,intermediate
+0,1,0,1,positive
+0,1,1,0,positive
+0,1,1,1,highly positive
+1,0,-1,0,negative
+1,0,-1,1,intermediate
+1,0,0,0,intermediate
+1,0,0,1,positive
+1,0,1,0,positive
+1,0,1,1,highly positive
+1,1,-1,0,intermediate
+1,1,-1,1,positive
+1,1,0,0,positive
+1,1,0,1,highly positive
+1,1,1,0,highly positive
+1,1,1,1,perfect

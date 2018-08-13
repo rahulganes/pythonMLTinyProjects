@@ -1,0 +1,145 @@
+location,phonenum,degree,email,sentiment,years of experience,result
+0,0,0,0,0,0,Imperfect
+0,0,0,0,0,1,Highly Negative
+0,0,0,0,0,-1,Imperfect
+0,0,0,0,1,0,Highly Negative
+0,0,0,0,1,1,Negative
+0,0,0,0,1,-1,Imperfect
+0,0,0,0,-1,0,Imperfect
+0,0,0,0,-1,1,Highly Negative
+0,0,0,0,-1,-1,Imperfect
+0,0,0,1,0,0,Highly Negative
+0,0,0,1,0,1,Negative
+0,0,0,1,0,-1,Highly Negative
+0,0,0,1,1,0,Negative
+0,0,0,1,1,1,Intermidiate
+0,0,0,1,1,-1,Negative
+0,0,0,1,-1,0,Highly Negative
+0,0,0,1,-1,1,Negative
+0,0,0,1,-1,-1,Highly Negative
+0,0,1,0,0,0,Highly Negative
+0,0,1,0,0,1,Negative
+0,0,1,0,0,-1,Highly Negative
+0,0,1,0,1,0,Negative
+0,0,1,0,1,1,Intermidiate
+0,0,1,0,1,-1,Negative
+0,0,1,0,-1,0,Highly Negative
+0,0,1,0,-1,1,Negative
+0,0,1,0,-1,-1,Highly Negative
+0,0,1,1,0,0,Negative
+0,0,1,1,0,1,Intermidiate
+0,0,1,1,0,-1,Negative
+0,0,1,1,1,0,Intermidiate
+0,0,1,1,1,1,Positive
+0,0,1,1,1,-1,Intermidiate
+0,0,1,1,-1,0,Negative
+0,0,1,1,-1,1,Intermidiate
+0,0,1,1,-1,-1,Negative
+0,1,0,0,0,0,Highly Negative
+0,1,0,0,0,1,Negative
+0,1,0,0,0,-1,Highly Negative
+0,1,0,0,1,0,Intermidiate
+0,1,0,0,1,1,Intermidiate
+0,1,0,0,1,-1,Negative
+0,1,0,0,-1,0,Highly Negative
+0,1,0,0,-1,1,Negative
+0,1,0,0,-1,-1,Highly Negative
+0,1,0,1,0,0,Negative
+0,1,0,1,0,1,Intermidiate
+0,1,0,1,0,-1,Negative
+0,1,0,1,1,0,Intermidiate
+0,1,0,1,1,1,Positive
+0,1,0,1,1,-1,Intermidiate
+0,1,0,1,-1,0,Negative
+0,1,0,1,-1,1,Intermidiate
+0,1,0,1,-1,-1,Negative
+0,1,1,0,0,0,Negative
+0,1,1,0,0,1,Intermidiate
+0,1,1,0,0,-1,Negative
+0,1,1,0,1,0,Intermidiate
+0,1,1,0,1,1,Positive
+0,1,1,0,1,-1,Intermidiate
+0,1,1,0,-1,0,Negative
+0,1,1,0,-1,1,Intermidiate
+0,1,1,0,-1,-1,Negative
+0,1,1,1,0,0,Intermidiate
+0,1,1,1,0,1,Positive
+0,1,1,1,0,-1,Intermidiate
+0,1,1,1,1,0,Positive
+0,1,1,1,1,1,Highly Positive
+0,1,1,1,1,-1,Positive
+0,1,1,1,-1,0,Intermidiate
+0,1,1,1,-1,1,Positive
+0,1,1,1,-1,-1,Intermidiate
+1,0,0,0,0,0,Highly Negative
+1,0,0,0,0,1,Negative
+1,0,0,0,0,-1,Highly Negative
+1,0,0,0,1,0,Negative
+1,0,0,0,1,1,Intermidiate
+1,0,0,0,1,-1,Negative
+1,0,0,0,-1,0,Highly Negative
+1,0,0,0,-1,1,Negative
+1,0,0,0,-1,-1,Highly Negative
+1,0,0,1,0,0,Negative
+1,0,0,1,0,1,Intermidiate
+1,0,0,1,0,-1,Negative
+1,0,0,1,1,0,Intermidiate
+1,0,0,1,1,1,Positive
+1,0,0,1,1,-1,Intermidiate
+1,0,0,1,-1,0,Negative
+1,0,0,1,-1,1,Intermidiate
+1,0,0,1,-1,-1,Negative
+1,0,1,0,0,0,Negative
+1,0,1,0,0,1,Intermidiate
+1,0,1,0,0,-1,Negative
+1,0,1,0,1,0,Intermidiate
+1,0,1,0,1,1,Positive
+1,0,1,0,1,-1,Intermidiate
+1,0,1,0,-1,0,Negative
+1,0,1,0,-1,1,Intermidiate
+1,0,1,0,-1,-1,Negative
+1,0,1,1,0,0,Intermidiate
+1,0,1,1,0,1,Positive
+1,0,1,1,0,-1,Intermidiate
+1,0,1,1,1,0,Positive
+1,0,1,1,1,1,Highly Positive
+1,0,1,1,1,-1,Positive
+1,0,1,1,-1,0,Intermidiate
+1,0,1,1,-1,1,Positive
+1,0,1,1,-1,-1,Intermidiate
+1,1,0,0,0,0,Negative
+1,1,0,0,0,1,Intermidiate
+1,1,0,0,0,-1,Negative
+1,1,0,0,1,0,Intermidiate
+1,1,0,0,1,1,Positive
+1,1,0,0,1,-1,Intermidiate
+1,1,0,0,-1,0,Negative
+1,1,0,0,-1,1,Intermidiate
+1,1,0,0,-1,-1,Negative
+1,1,0,1,0,0,Intermidiate
+1,1,0,1,0,1,Positive
+1,1,0,1,0,-1,Intermidiate
+1,1,0,1,1,0,Positive
+1,1,0,1,1,1,Highly Positive
+1,1,0,1,1,-1,Positive
+1,1,0,1,-1,0,Intermidiate
+1,1,0,1,-1,1,Positive
+1,1,0,1,-1,-1,Intermidiate
+1,1,1,0,0,0,Intermidiate
+1,1,1,0,0,1,Positive
+1,1,1,0,0,-1,Intermidiate
+1,1,1,0,1,0,Positive
+1,1,1,0,1,1,Highly Positive
+1,1,1,0,1,-1,Positive
+1,1,1,0,-1,0,Intermidiate
+1,1,1,0,-1,1,Positive
+1,1,1,0,-1,-1,Intermidiate
+1,1,1,1,0,0,Positive
+1,1,1,1,0,1,Highly Positive
+1,1,1,1,0,-1,Positive
+1,1,1,1,1,0,Highly Positive
+1,1,1,1,1,1,Perfect
+1,1,1,1,1,-1,Positive
+1,1,1,1,-1,0,Positive
+1,1,1,1,-1,1,Positive
+1,1,1,1,-1,-1,Positive

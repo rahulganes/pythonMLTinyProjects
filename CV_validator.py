@@ -81,6 +81,6 @@ Y = dataset.iloc[:, 6].values
 clf = tree.DecisionTreeClassifier()
 
 clf.fit(X,Y)
-print(a0,a1,a2,a3,a4,a5)
+
 print("Verdict :") #PREDICTED RESULTS
 print(clf.predict([[a0,a1,a4,a3,a2,a5]]))
